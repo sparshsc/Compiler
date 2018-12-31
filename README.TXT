@@ -1,12 +1,1 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+The compiler written in Java compiles Pascal code adhering to a specific grammar. The Scanner is responsible for reading the input string and determining the individual lexemes according to a given set of rules and producing a string of tokens. The top-down recursive descent Parser takes in tokens produced by scanner and executes statements as it parses them. The compiler supports compiling procedures and also recognizes and ignores commented code. To make it smart, I implemented Abstract Syntax Tree that tells the parser which parts of the scanner’s string of tokens to execute first, instead of going sequential. 
